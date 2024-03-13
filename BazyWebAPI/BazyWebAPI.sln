@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BazyWebAPI", "BazyWebAPI.csproj", "{89AEF43C-2D54-4DE5-B5DE-F91E1EFFE7F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BazyWebAPI", "BazyWebAPI.csproj", "{89AEF43C-2D54-4DE5-B5DE-F91E1EFFE7F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "..\Model\Model.csproj", "{ED5542EE-AF11-4424-8A13-175F468CBF08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "..\Model\Model.csproj", "{ED5542EE-AF11-4424-8A13-175F468CBF08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{2BD9587A-A37E-478E-9085-3BE74E0E3FC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "..\DAL\DAL.csproj", "{2BD9587A-A37E-478E-9085-3BE74E0E3FC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "..\BLL\BLL.csproj", "{ECD7085C-69F1-4DD9-B77A-47ABB13E964A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2BD9587A-A37E-478E-9085-3BE74E0E3FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BD9587A-A37E-478E-9085-3BE74E0E3FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BD9587A-A37E-478E-9085-3BE74E0E3FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD7085C-69F1-4DD9-B77A-47ABB13E964A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD7085C-69F1-4DD9-B77A-47ABB13E964A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD7085C-69F1-4DD9-B77A-47ABB13E964A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD7085C-69F1-4DD9-B77A-47ABB13E964A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

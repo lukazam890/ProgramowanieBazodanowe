@@ -12,7 +12,7 @@ namespace Model
         public int ID { get; set; }
         public int ProductID { get; set; }
         [ForeignKey(nameof(ProductID))]
-        public Product Product { get; set; }
+        public ProductRequsetDTO Product { get; set; }
         public int UserID { get; set; }
         [ForeignKey(nameof(UserID))]
         public User User { get; set; }

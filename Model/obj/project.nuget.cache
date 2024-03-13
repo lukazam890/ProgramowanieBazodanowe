@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "euDYzv8xDamAc1y6ptMhq6U2xUldHnRGFalTAQRb78i2VXYe/9ZvavOGs4SY4R0eP0ztCRBaM1QLaIWGTD2d0Q==",
+  "dgSpecHash": "f0E6yv4sgGNW3J7ANYC8TH8vBGUO40mrFnu7QD3qYsUIfIHVrEOzFpXPK9y9Bp6xdbZWMMat9APTfABEkhpiQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\student\\Desktop\\Bazodanowe\\API\\Model\\Model.csproj",
+  "projectFilePath": "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\Model\\Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

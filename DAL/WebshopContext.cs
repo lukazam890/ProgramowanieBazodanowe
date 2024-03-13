@@ -13,7 +13,7 @@ namespace DAL
         public DbSet<BasketPosition> BasketPositions { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderPosition> OrderPositions { get; set; }
-        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductRequsetDTO> Products { get; set; }
         public DbSet<ProductGroup> ProductGroups { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<UserGroup> Groups { get; set; }

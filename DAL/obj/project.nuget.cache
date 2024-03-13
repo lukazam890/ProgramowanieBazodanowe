@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mi96Xadaw2wxorgPEzfwS0ilvAnu71se5FtxFTW/di9zO19XZ3W1T8nbc7UXLBwud/7P9nSQsR28xnP8bFhH3g==",
+  "dgSpecHash": "bXJUtBuMi9ijV3vmcD21EimfzunTmN7CoZh/+qeKmSXKOTSIlFn13HCXlEOaN0lQblcF2U2reCF+Q96al3n2Vw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\student\\Desktop\\Bazodanowe\\API\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\student\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

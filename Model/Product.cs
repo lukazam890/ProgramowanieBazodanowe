@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public class Product
+    public class ProductRequsetDTO
     {
         public int ID { get; set; }
         public string Name { get; set; }

@@ -70,6 +70,9 @@ namespace DAL.Migrations
                     b.Property<int>("UserID")
                         .HasColumnType("int");
 
+                    b.Property<bool>("isPayed")
+                        .HasColumnType("bit");
+
                     b.HasKey("ID");
 
                     b.HasIndex("UserID");
@@ -94,9 +97,14 @@ namespace DAL.Migrations
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
+                    b.Property<int>("ProductID")
+                        .HasColumnType("int");
+
                     b.HasKey("ID");
 
                     b.HasIndex("OrderID");
+
+                    b.HasIndex("ProductID");
 
                     b.ToTable("OrderPositions");
                 });
@@ -246,7 +254,15 @@ namespace DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Model.Product", "Product")
+                        .WithMany("OrderPositions")
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Order");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Model.Product", b =>
@@ -286,6 +302,8 @@ namespace DAL.Migrations
             modelBuilder.Entity("Model.Product", b =>
                 {
                     b.Navigation("BasketPositions");
+
+                    b.Navigation("OrderPositions");
                 });
 
             modelBuilder.Entity("Model.ProductGroup", b =>

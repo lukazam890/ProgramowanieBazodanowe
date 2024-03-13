@@ -1,5 +1,4 @@
 ﻿using BLL.DTOModels;
-using Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace BLL.ServiceInterfaces
 {
-    public interface Basket
+    public interface IBasket
     {
         void addToBasket(BasketPositionRequestDTO basket);
-        void changeNumberOfProducs(int id, int numberOfProducts);
+        void changeNumberOfProducts(int id, int numberOfProducts);
         void removeProductFormBasket(int id);
         OrderResponseDTO GenerateOrder(int userId);
-        void pay(double value);
+        void pay(int userId, double value);
 
     }
 }

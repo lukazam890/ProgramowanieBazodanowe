@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public class ProductRequsetDTO
+    public class Product
     {
         public int ID { get; set; }
         public string Name { get; set; }
@@ -18,6 +18,7 @@ namespace Model
         [ForeignKey(nameof(GroupID))]
         public ProductGroup? Group { get; set; }
         public List<BasketPosition> BasketPositions { get; set; }
+        public List<OrderPosition> OrderPositions { get; set; }
 
     }
 }

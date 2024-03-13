@@ -15,5 +15,8 @@ namespace Model
         public Order Order { get; set; }
         public int Amount { get; set; }
         public double Price { get; set; }
+        public int ProductID { get; set; }
+        [ForeignKey(nameof(ProductID))]
+        public Product Product { get; set; }
     }
 }

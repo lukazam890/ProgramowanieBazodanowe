@@ -1,5 +1,4 @@
 ﻿using BLL.DTOModels;
-using Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace BLL.ServiceInterfaces
 {
-    public interface Products
+    public interface IProducts
     {
-        ProductResponseDTO getProducts(GetProductsDTO parameters);
-        void addProduct(int idProduct, int count);
+        IEnumerable<ProductResponseDTO> getProducts(GetProductsDTO parameters);
+        void addProduct(ProductRequestDTO product);
         void removeProduct(int id);
         void disableProduct(int id);
         void enableProduct(int id);

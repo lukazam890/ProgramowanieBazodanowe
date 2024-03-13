@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static BLL.ServiceInterfaces.Products;
+using static BLL.ServiceInterfaces.IProducts;
 
 namespace BLL.DTOModels
 {
-    enum SortBy
+    public enum SortBy
     {
         NameAsc,
         NameDesc,
@@ -18,10 +18,10 @@ namespace BLL.DTOModels
     };
     public class GetProductsDTO
     {
-        SortBy Sort { get; set; } = SortBy.NameAsc;
-        string? nameFilter { get; set; } = null;
-        string? groupNameFilter { get; set; } = null;
-        int? idGroupFilter { get; set; } = null;
-        bool onlyActive { get; set; } = true;
+        public SortBy Sort { get; set; } = SortBy.NameAsc;
+        public string? nameFilter { get; set; } = null;
+        public string? groupNameFilter { get; set; } = null;
+        public int? idGroupFilter { get; set; } = null;
+        public bool onlyActive { get; set; } = true;
     }
 }

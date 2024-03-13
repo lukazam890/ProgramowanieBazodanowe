@@ -12,7 +12,7 @@ namespace BLL.DTOModels
         public int ID { get; init; }
         public string Name { get; init; }
         public int? ParentID { get; init; }
-        public List<ProductGroupResponseDTO> Childrens { get; init; }
+        public List<ProductResponseDTO> Childrens { get; init; }
         public List<ProductRequestDTO> Products { get; init; }
     }
 }

@@ -15,6 +15,6 @@ namespace Model
         [ForeignKey(nameof(ParentID))]
         public ProductGroup? Parent { get; set; }
         public List<ProductGroup> Childrens { get; set; }
-        public List<ProductRequsetDTO> Products { get; set;}
+        public List<Product> Products { get; set;}
     }
 }

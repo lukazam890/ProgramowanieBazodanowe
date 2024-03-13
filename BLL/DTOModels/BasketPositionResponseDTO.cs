@@ -9,6 +9,7 @@ namespace BLL.DTOModels
 {
     public class BasketPositionResponseDTO
     {
+        public int ProductID { get; set; }
         public int UserID { get; init; }
         public int Amount { get; init; }
         public double Price { get; init; }

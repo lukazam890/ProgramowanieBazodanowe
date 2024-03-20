@@ -2740,23 +2740,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\student\\.nuget\\packages\\": {},
+    "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj",
+      "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj",
       "projectName": "BLL_EF",
-      "projectPath": "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj",
-      "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\BLL_EF\\obj\\",
+      "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj",
+      "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
+      "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2765,21 +2765,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\BLL\\BLL.csproj"
+            "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\DAL\\DAL.csproj"
+            "D:\\Github\\ProgramowanieBazodanowe\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\Model\\Model.csproj"
+            "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
+              "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj"
             }
           }
         }

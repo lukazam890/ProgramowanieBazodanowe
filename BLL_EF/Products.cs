@@ -14,6 +14,12 @@ namespace BLL_EF
     public class Products : IProducts
     {
         private readonly WebshopContext _context;
+
+        public Products(WebshopContext context)
+        {
+            _context = context;
+        }
+
         public void addProduct(ProductRequestDTO product)
         {
             if (product.Price < 0)

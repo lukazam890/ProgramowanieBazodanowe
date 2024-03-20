@@ -14,6 +14,12 @@ namespace BLL_EF
     public class Basket : IBasket
     {
         private readonly WebshopContext _context;
+
+        public Basket(WebshopContext context)
+        {
+            _context = context;
+        }
+
         public void addToBasket(BasketPositionRequestDTO basket)
         {
             Product? product = _context.Products.FirstOrDefault(p=>p.ID==basket.ProductID);

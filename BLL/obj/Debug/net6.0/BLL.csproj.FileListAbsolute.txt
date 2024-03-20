@@ -9,3 +9,14 @@ C:\Users\student\Desktop\ProgramowanieBazodanowe\BLL\obj\Debug\net6.0\BLL.dll
 C:\Users\student\Desktop\ProgramowanieBazodanowe\BLL\obj\Debug\net6.0\refint\BLL.dll
 C:\Users\student\Desktop\ProgramowanieBazodanowe\BLL\obj\Debug\net6.0\BLL.pdb
 C:\Users\student\Desktop\ProgramowanieBazodanowe\BLL\obj\Debug\net6.0\ref\BLL.dll
+D:\Github\ProgramowanieBazodanowe\BLL\bin\Debug\net6.0\BLL.deps.json
+D:\Github\ProgramowanieBazodanowe\BLL\bin\Debug\net6.0\BLL.dll
+D:\Github\ProgramowanieBazodanowe\BLL\bin\Debug\net6.0\BLL.pdb
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net6.0\BLL.dll
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net6.0\refint\BLL.dll
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net6.0\BLL.pdb
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net6.0\ref\BLL.dll

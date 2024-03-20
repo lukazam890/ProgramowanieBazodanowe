@@ -13,6 +13,6 @@ namespace BLL.DTOModels
         public string Image { get; init; }
         public bool IsActive { get; init; }
         public int? GroupID { get; init; }
-        public List<BasketPositionRequestDTO> BasketPositions { get; init; }
+        public List<BasketPositionRequestDTO>? BasketPositions { get; init; }
     }
 }

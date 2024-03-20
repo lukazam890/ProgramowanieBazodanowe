@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {}
+    "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
+    "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Desktop\\ProgramowanieBazodanowe\\BLL\\obj\\",
+        "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

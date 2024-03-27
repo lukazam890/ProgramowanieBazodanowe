@@ -24,10 +24,7 @@ namespace BLL_EF
         {
             if (product.Price < 0)
                 return;
-            int? lastId = _context.Products.Max(p => (int?)p.ID);
-            if (lastId == null) lastId = 0;
             Product productTemp = new Product {
-                ID = (int)lastId+1, 
                 Name = product.Name, 
                 Price = product.Price, 
                 Image = product.Image, 

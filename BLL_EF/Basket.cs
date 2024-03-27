@@ -25,11 +25,8 @@ namespace BLL_EF
             Product? product = _context.Products.FirstOrDefault(p=>p.ID==basket.ProductID);
             if (product == null || !product.IsActive)
                 return;
-            int? lastId = _context.BasketPositions.Max(p => (int?)p.ID);
-            if (lastId == null) lastId = 0;
             BasketPosition basketTemp = new BasketPosition
             {
-                ID = (int)lastId,
                 ProductID = basket.ProductID,
                 UserID = basket.UserID,
                 Amount = basket.Amount,
@@ -51,37 +48,47 @@ namespace BLL_EF
 
         public OrderResponseDTO GenerateOrder(int userId)
         {
-            BasketPosition? basket = _context.BasketPositions.FirstOrDefault(b => b.ID == userId);
+            BasketPosition? basket = _context.BasketPositions.FirstOrDefault(b => b.UserID == userId);
             if (basket == null)
                 return null;
-            int? lastId = _context.Orders.Max(p => (int?)p.ID);
-            if (lastId == null) lastId = 0;
             Order order = new Order
             {
-                ID = (int)lastId,
                 UserID = basket.UserID,
                 Date = DateTime.Now,
                 isPayed = false,
             };
-            lastId = _context.OrderPositions.Max(p => (int?)p.ID);
+            _context.Orders.Add(order);
+            _context.SaveChanges();
+            int? lastId = _context.Orders.Max(p => (int?)p.ID);
             if (lastId == null) lastId = 0;
             OrderPosition orderPosition = new OrderPosition
             {
-                ID = (int)lastId,
                 ProductID = basket.ProductID,
                 Amount = basket.Amount,
                 Price = basket.Price,
-                OrderID = order.ID,
+                OrderID = (int)lastId
             };
+            order.Positions = new List<OrderPosition>();
             order.Positions.Add(orderPosition);
+            _context.OrderPositions.Add(orderPosition);
             _context.SaveChanges();
-            return new OrderResponseDTO
+            OrderResponseDTO responseDTO = new OrderResponseDTO
             {
                 ID = order.ID,
                 Date = order.Date,
                 isPayed = false,
                 UserID = basket.UserID,
+                Positions = new List<OrderPositionResponseDTO>()
             };
+            responseDTO.Positions.Add(new OrderPositionResponseDTO
+            {
+                OrderID = orderPosition.OrderID,
+                ProductID = orderPosition.ProductID,
+                Amount = orderPosition.Amount,
+                Price = orderPosition.Price,
+            });
+            return responseDTO;
+
         }
 
         public void pay(int userId, double value)

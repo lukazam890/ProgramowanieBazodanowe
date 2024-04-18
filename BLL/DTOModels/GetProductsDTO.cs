@@ -22,6 +22,6 @@ namespace BLL.DTOModels
         public string? nameFilter { get; set; } = null;
         public string? groupNameFilter { get; set; } = null;
         public int? idGroupFilter { get; set; } = null;
-        public bool onlyActive { get; set; } = true;
+        public bool onlyActive { get; set; } = false;
     }
 }

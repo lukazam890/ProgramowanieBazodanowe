@@ -3,8 +3,14 @@
 	@value float
 AS
 	DECLARE
-	@orderid int
+	@orderid int,
+	@sum int
+
 	SET @orderid = (SELECT MIN(ID) FROM Orders WHERE UserID = @userid);
 
-	SELECT SUM(Price) FROM OrderPositions WHERE OrderID = @orderid;
+	SET @sum = (SELECT SUM(Price) FROM OrderPositions WHERE OrderID = @orderid);
+
+	IF ABS(@sum - @value) < 0.001 
+		UPDATE Orders SET isPayed = 1 WHERE UserID = @userid 
+		
 RETURN 0

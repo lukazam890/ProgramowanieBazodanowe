@@ -1,0 +1,11 @@
+D:\Github\ProgramowanieBazodanowe\BLL\bin\Debug\net7.0\BLL.deps.json
+D:\Github\ProgramowanieBazodanowe\BLL\bin\Debug\net7.0\BLL.dll
+D:\Github\ProgramowanieBazodanowe\BLL\bin\Debug\net7.0\BLL.pdb
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.AssemblyInfoInputs.cache
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.AssemblyInfo.cs
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.csproj.CoreCompileInputs.cache
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.dll
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\refint\BLL.dll
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.pdb
+D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\ref\BLL.dll

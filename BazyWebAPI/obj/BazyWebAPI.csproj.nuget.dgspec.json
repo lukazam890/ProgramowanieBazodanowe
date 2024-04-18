@@ -1,41 +1,45 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BazyWebAPI\\BazyWebAPI.csproj": {}
+    "D:\\Github\\ProgramowanieBazodanowe\\BazyWebAPI\\BazyWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BazyWebAPI\\BazyWebAPI.csproj": {
+    "D:\\Github\\ProgramowanieBazodanowe\\BazyWebAPI\\BazyWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BazyWebAPI\\BazyWebAPI.csproj",
+        "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\BazyWebAPI\\BazyWebAPI.csproj",
         "projectName": "BazyWebAPI",
-        "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BazyWebAPI\\BazyWebAPI.csproj",
-        "packagesPath": "C:\\Users\\Student RM4-3073 05\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BazyWebAPI\\obj\\",
+        "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BazyWebAPI\\BazyWebAPI.csproj",
+        "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\BazyWebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student RM4-3073 05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj"
+              "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj": {
-                "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj"
+              "D:\\Github\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj": {
+                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj"
               },
-              "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj": {
-                "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj"
+              "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj": {
+                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj"
               }
             }
           }
@@ -44,16 +48,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -79,33 +78,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
+    "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\Student RM4-3073 05\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\obj\\",
+        "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student RM4-3073 05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -113,16 +116,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -139,39 +137,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj": {
+    "D:\\Github\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj",
+        "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj",
         "projectName": "BLL_DB",
-        "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj",
-        "packagesPath": "C:\\Users\\Student RM4-3073 05\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_DB\\obj\\",
+        "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj",
+        "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL_DB\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student RM4-3073 05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj"
+              "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj"
+              "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
+                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj"
               }
             }
           }
@@ -180,16 +182,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "System.Data.SqlClient": {
               "target": "Package",
@@ -212,42 +209,46 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj": {
+    "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj",
+        "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj",
         "projectName": "BLL_EF",
-        "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj",
-        "packagesPath": "C:\\Users\\Student RM4-3073 05\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\obj\\",
+        "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj",
+        "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student RM4-3073 05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj"
+              "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\DAL\\DAL.csproj"
+              "D:\\Github\\ProgramowanieBazodanowe\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj"
+              "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
+                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj"
               }
             }
           }
@@ -256,16 +257,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -282,36 +278,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\DAL\\DAL.csproj": {
+    "D:\\Github\\ProgramowanieBazodanowe\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Student RM4-3073 05\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\DAL\\obj\\",
+        "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student RM4-3073 05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj"
+              "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
+                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj"
               }
             }
           }
@@ -320,16 +320,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -368,33 +363,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
+    "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj",
+        "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\Student RM4-3073 05\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\obj\\",
+        "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student RM4-3073 05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -402,16 +401,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -428,7 +422,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

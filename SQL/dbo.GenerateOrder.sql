@@ -6,7 +6,7 @@ AS
 	@amount int,
 	@price float
 	SET
-	@productid = (SELECT ID FROM BasketPositions WHERE UserID=@userid)
+	@productid = (SELECT ProductID FROM BasketPositions WHERE UserID=@userid)
 	SET
 	@amount = (SELECT Amount FROM BasketPositions WHERE UserID=@userid)
 	SET

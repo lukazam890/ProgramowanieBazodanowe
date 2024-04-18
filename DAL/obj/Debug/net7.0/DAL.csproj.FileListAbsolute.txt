@@ -1,0 +1,17 @@
+D:\Github\ProgramowanieBazodanowe\DAL\bin\Debug\net7.0\DAL.deps.json
+D:\Github\ProgramowanieBazodanowe\DAL\bin\Debug\net7.0\DAL.runtimeconfig.json
+D:\Github\ProgramowanieBazodanowe\DAL\bin\Debug\net7.0\DAL.dll
+D:\Github\ProgramowanieBazodanowe\DAL\bin\Debug\net7.0\DAL.pdb
+D:\Github\ProgramowanieBazodanowe\DAL\bin\Debug\net7.0\Model.dll
+D:\Github\ProgramowanieBazodanowe\DAL\bin\Debug\net7.0\Model.pdb
+D:\Github\ProgramowanieBazodanowe\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+D:\Github\ProgramowanieBazodanowe\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\ProgramowanieBazodanowe\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+D:\Github\ProgramowanieBazodanowe\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+D:\Github\ProgramowanieBazodanowe\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+D:\Github\ProgramowanieBazodanowe\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete
+D:\Github\ProgramowanieBazodanowe\DAL\obj\Debug\net7.0\DAL.dll
+D:\Github\ProgramowanieBazodanowe\DAL\obj\Debug\net7.0\refint\DAL.dll
+D:\Github\ProgramowanieBazodanowe\DAL\obj\Debug\net7.0\DAL.pdb
+D:\Github\ProgramowanieBazodanowe\DAL\obj\Debug\net7.0\DAL.genruntimeconfig.cache
+D:\Github\ProgramowanieBazodanowe\DAL\obj\Debug\net7.0\ref\DAL.dll

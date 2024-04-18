@@ -12,7 +12,7 @@ namespace BLL_DB
 {
     public class Products : IProducts
     {
-        private readonly string _connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=WebshopSQL;Integrated Security=True;Connect Timeout=30;Encrypt=False";
+        private readonly string _connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=WebshopSel;Integrated Security=True;Connect Timeout=30;Encrypt=False;";
         public void addProduct(ProductRequestDTO product)
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))

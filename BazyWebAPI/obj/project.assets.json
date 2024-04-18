@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net7.0": {
       "Azure.Core/1.35.0": {
         "type": "package",
         "dependencies": {
@@ -1164,7 +1164,7 @@
       },
       "BLL/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
           "bin/placeholder/BLL.dll": {}
         },
@@ -1174,7 +1174,7 @@
       },
       "BLL_DB/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "BLL": "1.0.0",
           "Model": "1.0.0",
@@ -1189,7 +1189,7 @@
       },
       "BLL_EF/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "BLL": "1.0.0",
           "DAL": "1.0.0",
@@ -1204,7 +1204,7 @@
       },
       "DAL/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.16",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.16",
@@ -1219,7 +1219,7 @@
       },
       "Model/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
           "bin/placeholder/Model.dll": {}
         },
@@ -3481,7 +3481,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net7.0": [
       "BLL >= 1.0.0",
       "BLL_DB >= 1.0.0",
       "BLL_EF >= 1.0.0",
@@ -3489,40 +3489,45 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Student RM4-3073 05\\.nuget\\packages\\": {}
+    "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BazyWebAPI\\BazyWebAPI.csproj",
+      "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\BazyWebAPI\\BazyWebAPI.csproj",
       "projectName": "BazyWebAPI",
-      "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BazyWebAPI\\BazyWebAPI.csproj",
-      "packagesPath": "C:\\Users\\Student RM4-3073 05\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BazyWebAPI\\obj\\",
+      "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BazyWebAPI\\BazyWebAPI.csproj",
+      "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
+      "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\BazyWebAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Student RM4-3073 05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj"
+            "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj": {
-              "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj"
+            "D:\\Github\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj": {
+              "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL_DB\\BLL_DB.csproj"
             },
-            "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj": {
-              "projectPath": "C:\\Users\\Student RM4-3073 05\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj"
+            "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj": {
+              "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj"
             }
           }
         }
@@ -3531,16 +3536,11 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -3566,7 +3566,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

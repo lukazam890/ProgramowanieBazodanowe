@@ -9,3 +9,14 @@ D:\Github\ProgramowanieBazodanowe\Model\obj\Debug\net7.0\Model.dll
 D:\Github\ProgramowanieBazodanowe\Model\obj\Debug\net7.0\refint\Model.dll
 D:\Github\ProgramowanieBazodanowe\Model\obj\Debug\net7.0\Model.pdb
 D:\Github\ProgramowanieBazodanowe\Model\obj\Debug\net7.0\ref\Model.dll
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\Model\bin\Debug\net7.0\Model.deps.json
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\Model\bin\Debug\net7.0\Model.dll
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\Model\bin\Debug\net7.0\Model.pdb
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\Model\obj\Debug\net7.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\Model\obj\Debug\net7.0\Model.AssemblyInfoInputs.cache
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\Model\obj\Debug\net7.0\Model.AssemblyInfo.cs
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\Model\obj\Debug\net7.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\Model\obj\Debug\net7.0\Model.dll
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\Model\obj\Debug\net7.0\refint\Model.dll
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\Model\obj\Debug\net7.0\Model.pdb
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\Model\obj\Debug\net7.0\ref\Model.dll

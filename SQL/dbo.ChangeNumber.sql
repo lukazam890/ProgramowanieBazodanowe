@@ -4,5 +4,5 @@
 AS
 	UPDATE BasketPositions 
 	SET Amount = @number
-	WHERE ID = @id;
+	WHERE UserID = @id;
 RETURN 0

@@ -1,0 +1,8 @@
+﻿CREATE TRIGGER [Tr_DateChange]
+	ON [dbo].[Orders]
+	AFTER UPDATE
+	AS
+	BEGIN
+		SET NOCOUNT ON
+		UPDATE Orders SET Date=CURRENT_TIMESTAMP WHERE ID = (SELECT ID FROM inserted)
+	END

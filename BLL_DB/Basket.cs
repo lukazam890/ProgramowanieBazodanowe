@@ -45,9 +45,10 @@ namespace BLL_DB
                 sqlCommand.Connection.Open();
                 SqlDataReader reader = sqlCommand.ExecuteReader();
                 if(!reader.Read()) { throw new InvalidOperationException(); }
+                int OrderID = (int)reader["ID"];
                 OrderResponseDTO orderResponseDTO = new OrderResponseDTO
                 {
-                    ID = (int)reader["ID"],
+                    ID = OrderID,
                     Date = (DateTime)reader["Date"],
                     isPayed = (bool)reader["isPayed"],
                     UserID = (int)reader["UserID"],
@@ -55,9 +56,11 @@ namespace BLL_DB
                 };
                 OrderPositionResponseDTO orderPositionResponseDTO = new OrderPositionResponseDTO
                 {
-                    ID = (int)reader["ProductID"],
+                    ID = (int)reader["OrderPositionID"],
                     Amount = (int)reader["Amount"],
-                    Price = (double)reader["Price"]
+                    Price = (double)reader["Price"],
+                    OrderID = OrderID,
+                    ProductID = (int)reader["ProductID"]
                 };
                 orderResponseDTO.Positions.Add(orderPositionResponseDTO);
                 reader.Close();

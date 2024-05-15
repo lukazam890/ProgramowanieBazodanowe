@@ -23,7 +23,7 @@ AS
 	INSERT INTO OrderPositions (ProductID, Amount, Price, OrderID)
 	VALUES (@productid, @amount, @price, @lastid);
 
-	SELECT Orders.ID, Date, IsPayed, UserID, OrderPositions.ProductID, OrderPositions.Amount, OrderPositions.Price
+	SELECT Orders.ID, Date, IsPayed, UserID, OrderPositions.ID AS OrderPositionID, OrderPositions.ProductID, OrderPositions.Amount, OrderPositions.Price
 	FROM Orders RIGHT JOIN OrderPositions ON Orders.ID = OrderPositions.OrderID 
 	WHERE Orders.UserID = @userid;
 

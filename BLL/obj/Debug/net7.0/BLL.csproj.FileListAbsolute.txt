@@ -9,3 +9,14 @@ D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.dll
 D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\refint\BLL.dll
 D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.pdb
 D:\Github\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\ref\BLL.dll
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\BLL\bin\Debug\net7.0\BLL.deps.json
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\BLL\bin\Debug\net7.0\BLL.dll
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\BLL\bin\Debug\net7.0\BLL.pdb
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.AssemblyInfoInputs.cache
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.AssemblyInfo.cs
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.dll
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\refint\BLL.dll
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\BLL.pdb
+C:\Users\lukas1004\Documents\GitHub\ProgramowanieBazodanowe\BLL\obj\Debug\net7.0\ref\BLL.dll

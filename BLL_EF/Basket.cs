@@ -40,7 +40,7 @@ namespace BLL_EF
         {
             if (numberOfProducts <= 0)
                 return;
-            BasketPosition? basket = _context.BasketPositions.FirstOrDefault(p => p.ID == id);
+            BasketPosition? basket = _context.BasketPositions.FirstOrDefault(p => p.UserID == id);
             if (basket == null) return;
             basket.Amount = numberOfProducts;
             _context.SaveChanges();
@@ -81,7 +81,8 @@ namespace BLL_EF
                 Positions = new List<OrderPositionResponseDTO>()
             };
             responseDTO.Positions.Add(new OrderPositionResponseDTO
-            {
+            {   
+                ID = orderPosition.ID,
                 OrderID = orderPosition.OrderID,
                 ProductID = orderPosition.ProductID,
                 Amount = orderPosition.Amount,
@@ -102,12 +103,13 @@ namespace BLL_EF
             if(Math.Abs(value - (double)sum)<0.001)
             {
                 order.isPayed = true;
-            }    
+            }
+            _context.SaveChanges();
         }
 
         public void removeProductFormBasket(int id)
         {
-            BasketPosition? basket = _context.BasketPositions.FirstOrDefault(b=>b.ID == id);
+            BasketPosition? basket = _context.BasketPositions.FirstOrDefault(b=>b.UserID == id);
             if (basket == null) 
                 return;
             _context.BasketPositions.Remove(basket);

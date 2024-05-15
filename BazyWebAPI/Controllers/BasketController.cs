@@ -22,9 +22,9 @@ namespace BazyWebAPI.Controllers
         }
 
         [HttpGet("number")]
-        public void changeNumberOfProducts(int id, int numberOfProducts)
+        public void changeNumberOfProducts(int userId, int numberOfProducts)
         {
-            _basket.changeNumberOfProducts(id, numberOfProducts);
+            _basket.changeNumberOfProducts(userId, numberOfProducts);
         }
 
 
@@ -41,9 +41,9 @@ namespace BazyWebAPI.Controllers
         }
 
         [HttpDelete]
-        public void removeProductFormBasket(int id)
+        public void removeProductFormBasket(int userId)
         {
-            _basket.removeProductFormBasket(id);
+            _basket.removeProductFormBasket(userId);
         }
     }
 }

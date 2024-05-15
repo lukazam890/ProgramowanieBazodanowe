@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj": {}
+    "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj": {}
   },
   "projects": {
-    "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
+    "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\lukas1004\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\lukas1004\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,25 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj": {
+    "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj",
+        "projectUniqueName": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj",
         "projectName": "BLL_EF",
-        "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj",
-        "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL_EF\\obj\\",
+        "projectPath": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\BLL_EF.csproj",
+        "packagesPath": "C:\\Users\\lukas1004\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL_EF\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\lukas1004\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,14 +83,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\BLL\\BLL.csproj"
+              "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\BLL\\BLL.csproj"
               },
-              "D:\\Github\\ProgramowanieBazodanowe\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\DAL\\DAL.csproj"
+              "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\DAL\\DAL.csproj"
               },
-              "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
-                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj"
+              "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj"
               }
             }
           }
@@ -128,25 +120,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Github\\ProgramowanieBazodanowe\\DAL\\DAL.csproj": {
+    "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\lukas1004\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\lukas1004\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,8 +148,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
-                "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj"
+              "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj"
               }
             }
           }
@@ -213,25 +201,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
+    "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\Github\\ProgramowanieBazodanowe\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\Łukasz Zamojski\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\ProgramowanieBazodanowe\\Model\\obj\\",
+        "projectPath": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\lukas1004\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukas1004\\Documents\\GitHub\\ProgramowanieBazodanowe\\Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Łukasz Zamojski\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\lukas1004\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -272,7 +256,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
